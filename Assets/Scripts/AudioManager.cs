@@ -12,6 +12,8 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AudioClip backgroundMusic;
     [SerializeField] private AudioClip pourSfx;
     [SerializeField] private AudioClip winSfx;
+    [SerializeField] private AudioClip clickSfx;
+    [SerializeField] private AudioClip waterFullSfx;
 
     private void Awake()
     {
@@ -68,12 +70,18 @@ public class AudioManager : MonoBehaviour
             musicSource.Stop();
         }
     }
-
+    public void PlayClick()
+    {
+        PlaySfx(clickSfx);
+    }
     public void PlayPour()
     {
         PlaySfx(pourSfx);
     }
-
+    public void PlayWaterFull()
+    {
+        PlaySfx(waterFullSfx);
+    }
     public void PlayWin()
     {
         PlaySfx(winSfx);

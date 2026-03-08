@@ -62,6 +62,7 @@ public class Tube : MonoBehaviour, IPointerClickHandler
         if (selected)
         {
             baseLocalPosition = transform.localPosition;
+            AudioManager.Instance?.PlayClick();
         }
 
         Vector3 target = selected
