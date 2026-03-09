@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Scene
   m_RootView: {fileID: 9}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 0
     width: 404
     height: 368.8
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -154,7 +154,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 119
+  controlID: 52
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -344,7 +344,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -4892
+  m_LastSelectedObjectID: 25530
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -511,7 +511,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Audio
+    - Assets/Texture2D/Texture2D
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -519,30 +519,30 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 54
   m_LastFolders:
-  - Assets/Audio
+  - Assets/Texture2D/Texture2D
   m_LastFoldersGridSize: 54
   m_LastProjectPath: D:\Project\MagicBloom
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 52710000
-    m_LastClickedID: 29010
-    m_ExpandedIDs: 00000000b6640000b8640000ba64000000ca9a3b
+    scrollPos: {x: 0, y: 7}
+    m_SelectedIDs: 20680000
+    m_LastClickedID: 26656
+    m_ExpandedIDs: 000000003a6500003c6500003e65000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Animator
-      m_OriginalName: Animator
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 25806
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
@@ -556,7 +556,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b6640000b8640000ba640000
+    m_ExpandedIDs: 000000003a6500003c6500003e650000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -584,7 +584,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000bc7500004a750000f07700003665000012f1000022f1000016f10000ca840000000000006c6e0000
+    m_ExpandedInstanceIDs: c6230000bc7500004a750000f07700003665000012f1000022f1000016f10000ca840000000000006c6e0000b0640000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -696,9 +696,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 0caaffff
-      m_LastClickedID: -22004
-      m_ExpandedIDs: 0caaffffeeecffffa6edffff66eeffffa8eeffff14efffff3ef9ffff48f9ffff14fbffff9e630000ac630000ca630000dc630000e6630000
+      m_SelectedIDs: a4680000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 1ef6ffff2af6ffff86680000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -813,7 +813,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 24.8}
       snapCorner: 1
       id: unity-search-toolbar
       index: 1
@@ -865,7 +865,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 24.8}
       snapCorner: 0
       id: Scene View/Light Settings
       index: 2
@@ -891,7 +891,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 24.8}
       snapCorner: 0
       id: Scene View/Cloth Constraints
       index: 3
@@ -904,7 +904,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 24.8}
       snapCorner: 0
       id: Scene View/Cloth Collisions
       index: 4
@@ -956,7 +956,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 24.8}
       snapCorner: 0
       id: Scene View/Occlusion Culling
       index: 5
@@ -969,7 +969,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 24.8}
       snapCorner: 0
       id: Scene View/Physics Debugger
       index: 6
@@ -982,7 +982,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 24.8}
       snapCorner: 0
       id: Scene View/Scene Visibility
       index: 7
@@ -995,7 +995,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 24.8}
       snapCorner: 0
       id: Scene View/Particles
       index: 8
@@ -1096,17 +1096,17 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
   m_Gizmos: 0
-  m_OverrideSceneCullingMask: 6917529027641081856
-  m_SceneIsLit: 1
+  m_OverrideSceneCullingMask: 0
+  m_SceneIsLit: 0
   m_SceneLighting: 1
   m_2DMode: 1
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 172.05643, y: 995.72614, z: -12.463706}
+    m_Target: {x: 50.090057, y: 1314.9806, z: 0.8049441}
     speed: 2
-    m_Value: {x: 172.05643, y: 995.72614, z: -12.463706}
+    m_Value: {x: 43.6208, y: 1312.5675, z: 0.7414498}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1117,7 +1117,7 @@ MonoBehaviour:
   m_SceneViewState:
     m_AlwaysRefresh: 0
     showFog: 1
-    showSkybox: 1
+    showSkybox: 0
     showFlares: 1
     showImageEffects: 1
     showParticleSystems: 1
@@ -1156,9 +1156,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1461.6202
+    m_Target: 134.74966
     speed: 2
-    m_Value: 1461.6202
+    m_Value: 141.09912
   m_Ortho:
     m_Target: 1
     speed: 2
